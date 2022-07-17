@@ -1,0 +1,20 @@
+SHORT WRITE UP TEXT ON MY DOG PET STORE DATABASE
+The dog pet store data base is an electronic record of data that shows over thirty dog breeds each sold to a different customer at a certain price.
+The database consists of three tables with multiple attributes 
+The first table being the dogs table this includes the:
+•	The dog_id that is a primary key and uniquely identifies each dog in the pet store 
+•	The dog_name that shows the name of every dog in the pet store
+•	The breed_id (a foreign)that shows that each dog in the pet store has its own breed that’s uniquely identified 
+•	The sex that indicates the gender of that specific dog.
+•	The age in months of the dog in the pet store.
+•	The price of each dog.
+The second table being the customers table this includes the:
+	The customer_id that is a uniquely identifies each customer that has bought a dog in the pet store.
+	The customer_name that shows the name of every customer that has bought a dog in the pet store
+	The breed brought illustrates the breed of dog the customer came in with before they bought a specific dog.
+	Address of the customer that shows their location or the new household of the dog 
+	The dog_id that is a foreign key linking the dog table to the customer table.
+The third table being the breed table this includes the:
+o	The breed_name which is a column containing all kinds of breeds the pet store was able to sell.
+o	The breed_id which is the primary key in this table and links the dog table to the breed table 
+Thus this table acts as the joining table for the database interrelating all the three.
